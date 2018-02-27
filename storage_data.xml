@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="r list Score Exp Rank" />
+      <item value="R User Rank Info" />
       <item value="user Rank Info Redis" />
     </histories>
   </component>
