@@ -1,5 +1,5 @@
 <templateSet group="MyTemplates">
-  <template name="wz" value="&quot;\n&#9;╔Class:&#9;&quot; +Thread.currentThread().getStackTrace()[1].getClassName()+ &quot;  ***  &quot;&#10;        + Thread.currentThread().getStackTrace()[1].getMethodName() + &quot;\n&#9;╚line:&#9;&quot;&#10;        + Thread.currentThread().getStackTrace()[1].getLineNumber()" toReformat="false" toShortenFQNames="true">
+  <template name="wz" value="&quot;\n&#9;╔Class:&#9;&quot; +Thread.currentThread().getStackTrace()[1].getClassName()+ &quot;  ***  &quot;&#10;        + Thread.currentThread().getStackTrace()[1].getMethodName() + &quot;\n&#9;╚line:&#9;&quot;&#10;        + Thread.currentThread().getStackTrace()[1].getLineNumber()" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
       <option name="JAVA_CODE" value="true" />
