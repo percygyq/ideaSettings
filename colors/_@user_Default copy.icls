@@ -3,10 +3,15 @@
     <property name="created">2017-08-30T18:24:07</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2018-02-27T21:39:40</property>
+    <property name="modified">2018-02-28T10:23:16</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
   <attributes>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a1164" />
+      </value>
+    </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="80033a" />
