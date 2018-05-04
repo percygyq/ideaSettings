@@ -5,4 +5,19 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="sg1" value="private static volatile $CLASS_NAME$ instance ;&#10;&#10;private $CLASS_NAME$($param1$){&#10;    $init$&#10;}&#10;&#10;public static $CLASS_NAME$ getInstance($param1$){&#10;    if (instance == null) {&#10;        synchronized ($CLASS_NAME$.class){&#10;            if (instance == null) {&#10;                instance = new $CLASS_NAME$($param2$) ;&#10;            }&#10;        }&#10;    }&#10;    return instance ;&#10;}" description="单例模式_双重检查" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="param1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="init" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sg" value="/* 单例模式_静态内部类 */   &#10;private static class SingletonHolder {&#10;    private static final $CLASS_NAME$ INSTANCE = new $CLASS_NAME$();&#10;}&#10;&#10;public static $CLASS_NAME$ getInstance() {&#10;    return SingletonHolder.INSTANCE;&#10;}" description="单例模式_静态内部类" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
